@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "zanui-capsule":"../../lib/zanui-weapp/capsule/index"
+  }
+}

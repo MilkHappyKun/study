@@ -1,0 +1,52 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/catalog/catalog",
+        "pages/cart/cart",
+        "pages/ucenter/index/index",
+        "pages/auth/login/login",
+        "pages/auth/accountLogin/accountLogin",
+        "pages/auth/register/register"
+
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "公园道商城",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#fff"
+    },
+    "tabBar": {
+      "backgroundColor": "#fafafa",
+      "borderStyle": "white",
+      "selectedColor": "#AB956D",
+      "color": "#666",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "static/images/home.png",
+          "selectedIconPath": "static/images/home@selected.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/catalog/catalog",
+          "iconPath": "static/images/category.png",
+          "selectedIconPath": "static/images/category@selected.png",
+          "text": "分类"
+        },
+        {
+          "pagePath": "pages/cart/cart",
+          "iconPath": "static/images/cart.png",
+          "selectedIconPath": "static/images/cart@selected.png",
+          "text": "购物车"
+        }, {
+          "pagePath": "pages/ucenter/index/index",
+          "iconPath": "static/images/my.png",
+          "selectedIconPath": "static/images/my@selected.png",
+          "text": "个人"
+        }
+      ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

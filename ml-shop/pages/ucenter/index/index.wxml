@@ -1,0 +1,12 @@
+<!--pages/ucenter/index/index.wxml-->
+<view class="container">
+  <!-- 点击登录 -->
+    <view class="profile-info" bindtap="goLogin">
+        <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+        <view class="info">
+            <text class="name">{{userInfo.nickName}}</text>
+        </view>
+    </view>
+    <!-- 退出登录 -->
+    <view class="logout" wx:if="{{hasLogin}}" bindtap="exitLogin">退出登录</view>
+</view>
