@@ -13,7 +13,7 @@ Page({
       util.showErrorToast('微信登陆失败');
       return;
     }
-    // 登陆成功返回个人中心页面
+    // 登陆然后返回个人中心
     user.checkLogin().catch(()=>{
       user.loginByWeixin(e.detail.userInfo).then(res =>{
         app.globalData.hasLogin = true;

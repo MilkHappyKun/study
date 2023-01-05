@@ -42,6 +42,13 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "商品详情页面",
+          "pathName": "pages/goods/goods",
+          "query": "id=1127047",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

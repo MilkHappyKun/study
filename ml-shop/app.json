@@ -6,13 +6,14 @@
         "pages/ucenter/index/index",
         "pages/auth/login/login",
         "pages/auth/accountLogin/accountLogin",
-        "pages/auth/register/register"
-
+        "pages/auth/register/register",
+        "pages/goods/goods"
+        
     ],
     "window": {
         "backgroundTextStyle": "dark",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "公园道商城",
+        "navigationBarTitleText": "小明商城",
         "navigationBarTextStyle": "black",
         "backgroundColor": "#fff"
     },

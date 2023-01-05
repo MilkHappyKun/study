@@ -1,0 +1,29 @@
+<!-- 商品详情页面 -->
+<view class="container">
+    <!-- 轮播图 -->
+    <swiper class="goodsimgs" indicator-dots="true" autoplay="true" interval="3000" duration="1000"> 
+        <swiper-item wx:for="{{goods.gallery}}" wx:key="key">
+            <image src="{{item}}" background-size="cover" />
+        </swiper-item>
+    </swiper>
+    <!-- 商品的名称 -->
+    <view class='goods_name'>
+        <view class='goods_name_left'>{{goods.name}}</view>
+    </view>
+    <!-- 商品的基本信息 -->
+    <view class="goods-info">
+        <view class="c">
+            <text class="desc">{{goods.brief}}</text>
+            <view class="price">
+                <view class="counterPrice">原价：￥{{goods.counterPrice}}</view>
+                <view class="retailPrice">现价：￥{{checkedSpecPrice}}</view>
+            </view>
+            <view class="brand" wx:if="{{brand.name}}">
+                <navigator url="../brandDetail/brandDetail?id={{brand.id}}">
+                    <!-- <text>{{brand.name}}</text> -->
+                    <text>虚空制造商</text>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>

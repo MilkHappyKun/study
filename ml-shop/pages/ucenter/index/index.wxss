@@ -50,3 +50,15 @@ page {
   color: #7f7f7f;
   font-size: 30rpx;
 }
+
+/* -------------------------------------------退出登录按钮 */
+.logout{
+  margin-top: 30rpx;
+  height: 100rpx;
+  width: 100%;
+  line-height: 100rpx;
+  text-align: center;
+  background: #fff;
+  color: red;
+  font-size: 30rpx;
+}

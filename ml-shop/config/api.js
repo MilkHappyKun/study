@@ -12,5 +12,6 @@ module.exports = {
   AuthLogout: WxApiRoot + 'auth/logout', //账号登出
   AuthRegister: WxApiRoot + 'auth/register', //账号注册
   AuthReset: WxApiRoot + 'auth/reset', //账号密码重置
-
+  // -------------------------------商品详情页面相关
+  GoodsDetail : WxApiRoot + 'goods/detail', //获得商品的详情
 };
