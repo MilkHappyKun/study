@@ -12,6 +12,12 @@ Page({
     },
     hasLogin: false
   },
+  // 
+  goGoods(){
+    wx.navigateTo({
+      url: '/pages/goods/goods',
+    })
+  },
   // 去登陆页
   goLogin(){
     // 首先判断是否登录
@@ -42,13 +48,15 @@ Page({
   // 生命周期钩子
   onShow(){
     // 获取用户的登录信息
-    let userInfo = wx.getStorageSync('userInfo');
-    if(userInfo){
+    user.checkLogin().then(res => {
       app.globalData.hasLogin = true;
+      let userInfo = wx.getStorageSync('userInfo');
       this.setData({
-        userInfo : userInfo,
+        userInfo: userInfo,
         hasLogin : true
-      })
-    }
+      });
+    }).catch(()=>{
+      app.globalData.hasLogin = false;
+    })
   }
 })

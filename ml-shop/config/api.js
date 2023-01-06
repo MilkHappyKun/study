@@ -9,9 +9,10 @@ module.exports = {
   // --------------------------- 注册，登录，退出登录
   AuthLoginByWeixin: WxApiRoot + 'auth/login_by_weixin', //微信登录
   AuthLoginByAccount: WxApiRoot + 'auth/login', //账号登录
-  AuthLogout: WxApiRoot + 'auth/logout', //账号登出
+  AuthLogout: WxApiRoot + 'auth/logout', //账号退出
   AuthRegister: WxApiRoot + 'auth/register', //账号注册
   AuthReset: WxApiRoot + 'auth/reset', //账号密码重置
   // -------------------------------商品详情页面相关
   GoodsDetail : WxApiRoot + 'goods/detail', //获得商品的详情
+  GoodsRelated: WxApiRoot + 'goods/related',// 商品详情页的关联商品（大家都在看）
 };

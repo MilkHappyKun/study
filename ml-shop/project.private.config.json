@@ -46,7 +46,7 @@
         {
           "name": "商品详情页面",
           "pathName": "pages/goods/goods",
-          "query": "id=1127047",
+          "query": "id=1181000",
           "launchMode": "default",
           "scene": null
         }

@@ -9,4 +9,7 @@
   </view>
   <!-- 退出登录 -->
   <view class="logout" wx:if="{{hasLogin}}" bindtap="exitLogin">退出登录</view>
+  <view bindtap="goGoods">
+    去商品详情页面
+  </view>
 </view>
